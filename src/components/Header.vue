@@ -4,13 +4,13 @@
         <img class="logo" src="@/assets/Logotype.svg" alt="logo de la société">
       </div>
       <div class="banner">
-        <div class="text_header">
+        <div class="text_header" data-aos="fade-down" data-aos-duration="1000">
           <h1>Qovery Engine <span><a class="github-button" href="https://github.com/Qovery/engine" data-size="large" data-show-count="true" aria-label="Star Qovery/engine on GitHub">Star</a></span></h1>
           <p>Abstraction layer to deploy microservices applications on any Cloud provider.</p>
           <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers.</p>
           <SocialButton />
         </div>
-        <div class="img_container">
+        <div class="img_container" data-aos="fade-left" data-aos-duration="1000">
           <img src="@/assets/aws.svg" alt="">
         </div>
       </div>

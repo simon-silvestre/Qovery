@@ -29,7 +29,7 @@ export default {
         background-origin: content-box;
         background-position: 95% -5px;
         background-size: 90%;
-        height: 100vh;
+        max-height: 100vh;
         margin: 100px auto;
         padding: 0 30px;
         text-align: center;

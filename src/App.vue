@@ -3,6 +3,8 @@
     <Header />
     <Work />
     <Usage />
+    <Features />
+    <Footer />
   </div>
 </template>
 
@@ -10,13 +12,17 @@
 import Header from './components/Header.vue'
 import Work from './components/Work.vue'
 import Usage from './components/Usage.vue'
+import Features from './components/Features.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Work,
-    Usage
+    Usage,
+    Features,
+    Footer
   }
 }
 </script>
