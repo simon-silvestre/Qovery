@@ -45,4 +45,9 @@ export default {
             }
         }
     }
+    @media screen and (max-width: 500px) {
+        .buttons a {
+            padding: 9px 10px;
+        }
+    }
 </style>

@@ -38,5 +38,6 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #F9F9FD;
+    image-rendering: -webkit-optimize-contrast;
   }
 </style>
